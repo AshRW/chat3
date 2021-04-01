@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+
+.cursor_link{
+    cursor: pointer;
+}
+
+.full_height{
+    height: 88vh;
+}
+
+body{
+    background-color: rgb(22, 22, 22);
+}
