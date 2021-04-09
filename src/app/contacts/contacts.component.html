@@ -1,1 +1,20 @@
-<p>contacts works!</p>
+<div class="container">
+    <div class="row align-items-center justify-content-center">
+        <div class="col-md-8 col-sm-11 ">
+            <div class="p-3 bg-light rounded m-md-5 m-3">
+                <form [formGroup]="addFriendForm">
+                    <label for="emailad">Friend's Email</label>
+                    <input type="email" class="form-control mb-2" id="emailad" formControlName="email">
+                    <button class="btn btn-success" (click)="addFriend()">Add Friend</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="row align-items-center justify-content-center">
+        <div class="col-md-10 col-sm-12">
+            <div class="p-3 bg-light rounded m-md-5 m-3">
+                <h1 class="display-6">Friend List</h1>
+            </div>
+        </div>
+    </div>
+</div>
